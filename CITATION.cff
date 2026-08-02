@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: >-
+  Anomaly Detection in EV Battery Charging: LSTM-based State-of-Charge
+  Estimation and Sensor-Fault Detection
+message: If you use this software or its results, please cite it as below.
+type: software
+authors:
+  - given-names: Farhad
+    family-names: Bagheri
+repository-code: >-
+  https://github.com/FarhadBagheri23/Anomaly-Detection-SoC-EV-batteries
+abstract: >-
+  A battery management system reports State of Charge but cannot measure it
+  directly; it infers SoC by integrating current, so any current-sensor error
+  accumulates rather than averaging away. This work trains an LSTM-family
+  estimator on the LG 18650HG2 benchmark across -20 to +40 degrees C and uses
+  its prediction as an independent second opinion, monitoring the residual
+  between reported and predicted SoC increments to detect bias, drift and
+  noise faults in the measurement chain.
+keywords:
+  - state of charge
+  - lithium-ion battery
+  - anomaly detection
+  - LSTM
+  - battery management system
+  - electric vehicles
+license: MIT
+date-released: '2026-08-02'

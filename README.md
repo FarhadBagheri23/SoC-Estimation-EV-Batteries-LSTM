@@ -2,6 +2,9 @@
 
 LSTM-based SoC estimation and sensor-fault detection on the LG 18650HG2 cell.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FarhadBagheri23/Anomaly-Detection-SoC-EV-batteries/blob/main/SOC_NOTEBOOK.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Everything lives in one self-contained notebook, [`SOC_NOTEBOOK.ipynb`](SOC_NOTEBOOK.ipynb),
 which runs end to end in Google Colab on a T4 GPU in roughly 45 minutes.
 
