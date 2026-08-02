@@ -1,0 +1,10 @@
+# Only needed to run the notebook locally — Colab ships all of these.
+# Versions are unpinned because the notebook uses no version-sensitive APIs;
+# the reported results were produced on torch 2.11.0+cu128 (Tesla T4).
+
+torch
+numpy
+pandas
+matplotlib
+scikit-learn
+kagglehub      # dataset download; the notebook falls back to a public mirror without it

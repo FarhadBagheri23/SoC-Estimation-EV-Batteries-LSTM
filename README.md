@@ -150,9 +150,13 @@ Stated plainly, because they bound how these figures should be quoted:
 
 ## Running it
 
-Open the notebook in Colab, select a GPU runtime, and run all cells. Dependencies are
-installed in-notebook; the dataset downloads automatically. On CPU it will complete but
-the training section takes hours rather than minutes.
+Open the notebook in Colab, select a GPU runtime, and run all cells. Colab already ships
+every dependency, so there is nothing to install, and the dataset downloads
+automatically. On CPU the notebook still completes, but the training section takes hours
+rather than minutes.
+
+To run it locally instead, `pip install -r requirements.txt`. The results reported above
+were produced on torch 2.11.0+cu128 with a Tesla T4.
 
 ## Key references
 
@@ -172,3 +176,9 @@ detection in electric vehicle state of charge fluctuations through analysis of E
 *arXiv preprint arXiv:2401.01580*.
 
 The full reference list is in the notebook's closing section.
+
+## License
+
+MIT — see [LICENSE](LICENSE). The LG 18650HG2 dataset is the property of its authors
+(Kollmeyer et al., 2020) and carries its own terms; this license covers only the code
+and analysis in this repository.
