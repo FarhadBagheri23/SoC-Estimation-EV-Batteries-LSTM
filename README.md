@@ -1,11 +1,21 @@
-# State-of-Charge Estimation for EV Lithium-Ion Batteries
+<div align="center">
+
+<img src="assets/sharif-logo.jpg" width="115" alt="Sharif University of Technology">
+
+<h1>State-of-Charge Estimation for EV Lithium-Ion Batteries</h1>
+
+<b>Sharif University of Technology — International Campus, Kish Island</b><br>
+B.Sc. Thesis Project · Department of Computer Engineering · 2026<br>
+<b>Farhad Bagheri Taheri</b> &nbsp;·&nbsp; Supervisor: <b>Dr. Amin Foshati</b>
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FarhadBagheri23/SoC-Estimation-EV-Batteries-LSTM/blob/main/SOC_NOTEBOOK.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+</div>
 
 A controlled comparison of deep learning architectures for **State of Charge (SoC)**
 estimation on the LG 18650HG2 cell, across the full automotive temperature range of
 −20 °C to +40 °C.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FarhadBagheri23/SoC-Estimation-EV-Batteries-LSTM/blob/main/SOC_NOTEBOOK.ipynb)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Everything lives in one self-contained notebook, [`SOC_NOTEBOOK.ipynb`](SOC_NOTEBOOK.ipynb),
 which runs end to end in Google Colab on a T4 GPU. The full comparison — five deep
